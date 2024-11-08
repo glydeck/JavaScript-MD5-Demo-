@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MD5 Demo</title>
+</head>
+
+<body>
+	<h1>Using MD5 for a WEB Page Password</h1>
+	<h2>How to Use:</h2>
+	<ol>
+		<li>Password is <b>md5demo</b></li>
+		<li>Enter the password and click on the <b>Submit</b> button.</li>
+		<li><b>Do not</b> use the Enter key</li>
+		<li>To change the password go to <a href=https://www.md5hashgenerator.com/>md5hashgenerator.com</a></li>
+		<li>Type in the new password and click on the generate button
+		<br><i>Step 4 & 5 can also be done with the linux command line</i></li>
+		<li>Copy the new MD5 checksum for the new password</li>
+		<li>Replace the MD5 checksum in p.js line 3 with the new MD5</li>
+	</ol>
+    <form>
+		<label for="pswd">Enter password: </label>
+		<input type="password" id="pswd">
+		<input type="button" value="Submit" onclick="checkPswd();" />
+    </form>
+	<p id="md5"></p>
+	<p id="a"></p>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/p.js"></script>
+</body>
+
+</html>

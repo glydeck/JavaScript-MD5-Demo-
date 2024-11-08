@@ -1,0 +1,58 @@
+        /* Style & background col;or of page */        
+        body {
+			font-family: Verdana;
+			font-size:	 100%;
+			background-color: #afd7fb;
+			margin: 50;
+			padding: 0;
+			color: #000;
+		}
+        
+        /* Properties for the Title */
+        h1 
+        {
+            text-align:justify;
+        }
+        /* Properties for the Author or subtitle */
+        h2 
+        {
+            text-align:justify;
+        }
+        /* Properties for h3 */
+        h3 
+        {
+            text-align:justify;
+        }
+        /* Properties for main text */
+        p.main 
+        {
+            text-align:justify;
+        }
+        /* Properties for the Caption text */
+        p.caption 
+        {
+            text-align:justify;
+			font-family: Arial;
+			font-size:	120%
+        }
+        textarea
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto 
+        }
+        
+        /* Properties for the images */
+        img
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto 
+        }
+        div.render
+        {
+			width:500px; 
+			margin:auto; 
+			position:relative 
+        }
+    
