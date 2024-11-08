@@ -6,8 +6,8 @@ This is a simple demonstration of how to use the JavaScript implementation of th
 
 To use this demo download the package of files  and launch webPage.html with any browser. Instructions are built into the web page.
 ### Contents
-- Readme.md *This File
-- webPage.html
-- md5.js *JavaScript implementation of MD5
-- p.js   *JavaScript that calls the md5 function
-- style.css *CSS style sheet for the web page
+- **Readme.md** *This File
+- **webPage.html**
+- **md5.js** *JavaScript implementation of MD5
+- **p.js**   *JavaScript that calls the md5 function
+- **style.css** *CSS style sheet for the web page
